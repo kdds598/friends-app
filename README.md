@@ -28,6 +28,7 @@ git clone https://github.com/yourusername/friends-app.git
 2. cd friends-app
 
 3. set .env :
+
 in root directory:
 ```bash
 PORT=Port_no.
