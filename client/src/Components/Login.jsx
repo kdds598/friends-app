@@ -46,7 +46,7 @@ const Login = () => {
       }
     } catch (error) {
       const errorMessage = selected === 'login' ? 'Invalid username or password' : 'Error signing up';
-      // alert(errorMessage);
+      alert(errorMessage);
     }
   };
 
