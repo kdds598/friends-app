@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Login from './Components/Login.jsx';
 import { Provider } from 'react-redux';
-import store from '../Store/Store.js';
+import store from '../Store/store.js';
 import { createBrowserRouter, RouterProvider, NavLink, Outlet } from 'react-router-dom';
 import ProtectedRoute from './Components/ProtectedRoute.jsx';
 import Recommendation from './Components/Recommendation.jsx';
