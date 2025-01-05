@@ -1,0 +1,165 @@
+.container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f3f4f6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+  
+.tabbutton{
+    margin: 10px 0px;
+    padding: 20px 40px;
+    background: rgb(229, 229, 229);
+    border-radius: 10px;
+    border: 0px;
+    width:200px;
+    display: flex;
+    background-color:white;
+    color: #0077b5;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, color 0.3s;
+  
+  
+  } 
+   .activeButton{
+    margin: 10px 0px;
+    padding: 20px 40px;
+    background: rgb(229, 229, 229);
+    border-radius: 10px;
+    border: 0px;
+    width:200px;
+    background-color: #0077b5;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, color 0.3s;
+  
+  } 
+  
+  
+  .toggleContainer{
+    align-self:center;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    width:90%;
+    margin: 20px 5%;
+    min-height: 30px;
+    background: rgb(195, 216, 238);
+    border-radius: 10px;
+  }
+  
+
+/* General container */
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    /* background-color: #f0f8ff; */
+    border-radius: 10px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  /* Heading */
+  h2 {
+    font-size: 24px;
+    color: #0077b5;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* List styling */
+  .list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .item:hover {
+    background-color: #f1f9ff;
+  }
+  
+  .status {
+    font-size: 14px;
+    color: #0077b5;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 8px 15px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .acceptButton {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .rejectButton {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  button:disabled {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+  }
+  
+  /* No requests message */
+  p {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+   
+    @media (max-width: 500px) {
+      .activeButton, .tabbutton{
+          width:130px;
+      padding: 20px 0px;
+      margin: 10px 0px;
+  
+      }
+  
+     
+    }

@@ -1,0 +1,128 @@
+.container {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f3f4f6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0077b5;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+  }
+  
+  .searchBar {
+    width: 98%;
+    padding: 10px;
+    border: #0077b5 1px solid;
+    border-radius: 4px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .friendsSection,
+  .usersSection {
+    width: 100%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    min-height: 300px;
+  }
+  
+  .friendsList,
+  .usersList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .friendCard,
+  .userCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .unfriendButton,
+  .addFriendButton {
+    background-color: #0077b5;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .unfriendButton:hover,
+  .addFriendButton:hover {
+    background-color: #005f93;
+  }
+  
+  .tabbutton{
+    margin: 10px 0px;
+    padding: 20px 40px;
+    background: rgb(229, 229, 229);
+    border-radius: 10px;
+    border: 0px;
+    width:200px;
+    display: flex;
+    background-color:white;
+    color: #0077b5;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, color 0.3s;
+
+  
+  } 
+   .activeButton{
+    margin: 10px 0px;
+    padding: 20px 40px;
+    background: rgb(229, 229, 229);
+    border-radius: 10px;
+    border: 0px;
+    width:200px;
+    background-color: #0077b5;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, color 0.3s;
+
+  } 
+
+.toggleContainer{
+    align-self:center;
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    min-height: 30px;
+    background: rgb(247, 247, 247);
+    border-radius: 10px;
+}
+
+
+  
+  @media (max-width: 500px) {
+    .activeButton, .tabbutton{
+        width:130px;
+    padding: 20px 0px;
+    margin: 10px 0px;
+
+    }
+
+   
+  }
