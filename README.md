@@ -7,7 +7,7 @@ A social app where users can create accounts, send/receive friend requests, and 
 ## Features
 - **User Account Creation**: Users can create accounts by providing a username and password.
 - **Friend Requests**: Users can send friend requests to other users and accept incoming requests.
-- **Friend Recommendations**: Users receive recommendations for new friends based on mutual connections or common interests.
+- **Friend Recommendations**: Users receive recommendations for new friends based on mutual connections.
 - **Secure Authentication**: JWT (JSON Web Tokens) is used for secure user authentication to protect user sessions and data.
 
 ## Prerequisites
